@@ -1,2 +1,2 @@
-#Display Images 
+# Display Images 
 Using HTML, CSS, JavaScript
