@@ -25,3 +25,20 @@ nextButton.onclick = () => {
 
     currImage.setAttribute("src", `data/${imageNumber}.jpg`);
 }
+
+let toggleButton = document.querySelector("#switch");
+
+toggleButton.onclick = () => {
+    
+    if (toggleButton.checked == true){
+        // console.log(toggleButton.checked)
+        // document.querySelector("body").style.remove
+        document.querySelector("body").style.color = '#fff';
+        document.querySelector("body").style.backgroundColor = '#121212';
+
+    } else{
+        document.querySelector("body").style.color = 'black';
+        document.querySelector("body").style.backgroundColor = '#fff';
+    }
+
+}
